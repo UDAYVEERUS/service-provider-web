@@ -232,6 +232,7 @@ h3.dropdownMenu__heading:after {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    margin-top: 8px;
 }
 
 .customHeading h3 {
