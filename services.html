@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <link rel="icon" type="image/x-icon" href="img/title_icon.png">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/res.css">
+
+    <title>Services
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" />
+
+</head>
+
+<body id="body">
+    <header class="customHeader">
+        <nav class="navbar navbar-expand-lg navbar-light customNavigation">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand logoImage" href="https://magicads360.com"><img src="https://magicads360.com/web/img/logo.png"></a> -->
+                <a class="navbar-brand logoImage" href="index.html"><img src="img/logo_new.png"></a>
+                <a class="navbar-brand mobileLogo" href="index.html"><img src="img/mobileLogo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+                    <ul class="navbar-nav customNavigation__list">
+
+                        <!-- <li class="nav-item dropdown dropdown-hover position-static">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="border-top-left-radius: 0; border-top-right-radius: 0;">
+                                <div class="blank"></div>
+                                <div class="container-fluid" style="background: #eefafff2;">
+                                    <div class="row w-100 m-0">
+                                        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <h3 class="dropdownMenu__heading">Organic Services</h3>
+                                                <ul class="dropdownMenu__links">
+                                                    <a href="./seo_service.html">
+                                                        <li class="list-group-item list-group-item-action">SEO services
+                                                        </li>
+                                                    </a>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <h3 class="dropdownMenu__heading">Social Media Services</h3>
+                                                <ul class="dropdownMenu__links">
+                                                    <a href="./social_media.html">
+                                                        <li class="list-group-item list-group-item-action">Social media
+                                                            advertising</li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <h3 class="dropdownMenu__heading">Digital Advertising</h3>
+                                                <ul class="dropdownMenu__links">
+                                                    <a href="./digital.html">
+                                                        <li class="list-group-item list-group-item-action">Digital
+                                                            advertising</li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <h3 class="dropdownMenu__heading">Development</h3>
+                                                <ul class="dropdownMenu__links">
+                                                    <a href="./devlopment.html">
+                                                        <li class="list-group-item list-group-item-action">Web
+                                                            development
+                                                        </li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <h3 class="dropdownMenu__heading">Interactive Design</h3>
+                                                <ul class="dropdownMenu__links">
+                                                    <a href="./intractive.html">
+                                                        <li class="list-group-item list-group-item-action">Interactive
+                                                        </li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <h3 class="dropdownMenu__heading">Content Marketing</h3>
+                                                <ul class="dropdownMenu__links">
+                                                    <a href="./content.html">
+                                                        <li class="list-group-item list-group-item-action">Content
+                                                            Marketing
+                                                        </li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="dropdownMenu__footer my-5">Whatever you are looking for, We’ve got
+                                        you!<span><img src="img/like.png"></span></p>
+                                </div>
+                            </div>
+                        </li> -->
+
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle " style="    color: #1e1e1e !important;
+                            text-transform: capitalize;
+                            padding: 6px 16px;
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-family: inter;
+                            font-weight: bold;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1"
+                                style="background-color: #eefafff2; padding: 2px;">
+                                <li><a class="dropdown-item" href="./seo_service.html">
+                                        SEO services
+
+                                    </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./social_media.html">Social Media</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./social_media.html">Digital Advertising</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./social_media.html">Web
+                                        Development</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./social_media.html">Interactive Design</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./social_media.html">Content Marketing</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://magicads360.com/blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">about us</a>
+                        </li>
+                        <li class="nav-item contactUs__btn">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-6 ">
+                <h1 class="mt-4">Services </h1>
+                <p>that we offer</p>
+            </div>
+            <div class="col-6 mt-5">
+                <div class="colors">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion" id="accordionExample_0">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne0">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne0" aria-expanded="true" aria-controls="collapseOne0">
+                        Organic Services
+                    </button>
+                </h2>
+
+                <div id="collapseOne0" class="accordion-collapse collapse " aria-labelledby="headingOne0"
+                    data-bs-parent="#accordionExample_0">
+                    <div class="accordion-body">
+
+
+
+                        <div class="row  left-acc-row">
+                            <div class="col-6 service-col d-flex">
+                                <a class="service-contact" href="/contact.html"> Contact Us
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+
+
+                            </div>
+                            <div class="col-6 p-5">
+                                <h6>SEO services</h6>
+                                <div class="colors-1">
+
+                                </div>
+
+                                <p class="mt-3">Our team of SEO experts has years of experience in the industry and is
+                                    well-versed in the latest SEO best practices. We work closely with our
+                                    clients to understand their unique needs and goals, and we tailor our
+                                    services accordingly.
+                                </p>
+                                <a class="service-contact" style="margin-left: 0;" href="seo_service.html">
+                                    Read more <span class="arrow_mark"> &#x2192; </span></a>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row right-acc-row">
+
+                            <div class="col-6 p-5 right-acc">
+                                <h6>Enterprises SEO services</h6>
+                                <div class="colors-1">
+                                </div>
+                                <p class="mt-3">With out consistent site traffic, you’re missing out on valuable
+                                    visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on
+                                    track by boosting your presence in search engine results, so more people can find
+                                    and visit your site.</p>
+                                <a class="service-contact" href="/seo_service.html" style="margin-left: 0px;"> Read more
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+                            </div>
+                            <div class="col-6  d-flex">
+                                <a class="service-contact" href="/contact.html"> Contact Us
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion" id="accordionExample_1">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                        Social Media Services
+                    </button>
+                </h2>
+
+                <div id="collapseOne1" class="accordion-collapse collapse " aria-labelledby="headingOne1"
+                    data-bs-parent="#accordionExample_1">
+                    <div class="accordion-body">
+
+
+
+                        <div class="row  left-acc-row">
+                            <div class="col-6 service-col d-flex">
+                                <a class="service-contact" href="/contact.html.html"> Contact Us
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+                                <a class="service-contact" href="/social_media.html"> Read more
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+
+                            </div>
+                            <div class="col-6 p-5">
+                                <h6>Social media advertising</h6>
+                                <div class="colors-1">
+
+                                </div>
+
+                                <p>Revolutionize your social media marketing with MagicAds! Our team of experienced
+                                    professionals is dedicated to helping you maximize your online reach and achieve
+                                    your marketing objectives. With cutting-edge strategies and a finger on the pulse of
+                                    the latest trends, we'll help you stay ahead of the competition and drive real
+                                    results for your business. From comprehensive social media management to targeted
+                                    advertising and influencer marketing campaigns, we've got you covered
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion" id="accordionExample_2">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                        Digital Advertising
+                    </button>
+                </h2>
+
+                <div id="collapseOne2" class="accordion-collapse collapse " aria-labelledby="headingOne2"
+                    data-bs-parent="#accordionExample_2">
+                    <div class="accordion-body">
+
+                        <div class="row  left-acc-row">
+                            <div class="col-6 service-col d-flex">
+                                <a class="service-contact" href="contact.html"> Contact Us
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+                                <a class="service-contact" href="digital.html"> Read more
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+
+                            </div>
+                            <div class="col-6 p-5">
+                                <h6> Digital Advertising</h6>
+                                <div class="colors-1">
+
+                                </div>
+
+                                <p>We know that when it comes to promoting your business online, you want to work with a
+                                    team that knows what they're doing. That's where we come in. At Magicads 360, we
+                                    specialize in helping our clients increase their online visibility and reach their
+                                    target audience through a variety of digital channels. Whether you need help with
+                                    social media advertising, search engine optimization, or email marketing, we've got
+                                    you covered.So don't wait any longer to start seeing results for your business.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion" id="accordionExample_3">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne3">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                        Development
+                    </button>
+                </h2>
+
+                <div id="collapseOne3" class="accordion-collapse collapse " aria-labelledby="headingOne3"
+                    data-bs-parent="#accordionExample_3">
+                    <div class="accordion-body">
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion" id="accordionExample_4">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne4">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                        Interactive Design
+                    </button>
+                </h2>
+
+                <div id="collapseOne4" class="accordion-collapse collapse " aria-labelledby="headingOne4"
+                    data-bs-parent="#accordionExample_4">
+                    <div class="accordion-body">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion" id="accordionExample_5">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne5">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                        Content Marketing
+                    </button>
+                </h2>
+
+                <div id="collapseOne5" class="accordion-collapse collapse " aria-labelledby="headingOne5"
+                    data-bs-parent="#accordionExample_5">
+                    <div class="accordion-body">
+
+                        <div class="row  left-acc-row">
+                            <div class="col-6 service-col d-flex">
+                                <a class="service-contact" href="contact.html"> Contact Us
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+                                <a class="service-contact" href="/content.html"> Read more
+                                    <span class="arrow_mark"> &#x2192; </span></a>
+
+                            </div>
+                            <div class="col-6 p-5">
+                                <h6> Content marketing</h6>
+                                <div class="colors-1">
+
+                                </div>
+
+                                <p>Are you struggling to make an impact with your content? Look no further than
+                                    MagicAds! Our team of experts offers the best content marketing services around.
+                                    We'll work with you to create engaging content that resonates with your target
+                                    audience. At MagicAds, we understand the importance of reaching your customers
+                                    through multiple channels. Don't wait any longer to take your content to the next
+                                    level.
+
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="custom__socialIcons">
+
+            <ul class=" socialIcons ">
+                <div class="custom__socialIcons">
+                    <ul class=" socialIcons ">
+                        <li><a href="https://www.linkedin.com/company/magicads360/"><i
+                                    class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/Magicads360"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/@magicads360"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/magic.ads.360/"><i
+                                    class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- -----------------------HTML----------------------------------- -->
+    <div id="enquiry_btn">
+        <img src="img/enquiry_btn.png">
+    </div>
+
+
+    <div class="popupForm" id="enquiry" style="display:none ;">
+        <h3><span>Enquiry Form</span> <span id="close_pop" style="    position: absolute;
+        right: 10px;
+    "><i class="fa fa-times-circle " style="font-size: 18px;" aria-hidden="true"></i></span></h3>
+        <form id="enquiry_form">
+            <input type="hidden" name="_token" value="PZWPF0utOIYililEw4Ag6vsEDTc7nfMlFYc9vb5v">
+            <p>Fill in the details below and one of our executives will get back to you shortly.</p>
+
+            <input type="text" placeholder="Name*" value="" name="name" id="name1" autocomplete="off" required>
+            <input type="text" placeholder="Company Name(Optional)" id="company_name1" name="company_name"
+                autocomplete="off" value="">
+            <input type="text" placeholder="Phone Number" value="" id="phone_number" name="phone" autocomplete="off"
+                required>
+            <div class="inputCol">
+                <input type="email" placeholder="Enter your Email" id="email1" autocomplete="off" name="email" value=""
+                    required>
+
+                <button type="submit" id="lets_talk_btn" class="btn btn-primary enquiry_form_button">Lets Talk </button>
+            </div>
+            <textarea id="type_message" rows="3" cols="30" name="message" placeholder="Message (Optional)"></textarea>
+        </form>
+    </div> <!-- footer -->
+
+    <!----------------------------------------------Footer--------------------------------------------->
+    <footer>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-8">
+                    <div class="footerLinks__cls">
+
+                        <div class="footer__links">
+                            <h4>ABOUT US</h4>
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="https://magicads360.com/blog/">Blog</a></li>
+                                <!-- <li><a href="#">Team</a></li> -->
+                            </ul>
+                        </div>
+
+                        <div class="footer__links" style="width: 250px;">
+                            <h4>Services</h4>
+                            <ul>
+                                <!-- <li><a href="contact.html">Case Studies</a></li> -->
+                                <li><a href="seo_service.html">SEO Services</a></li>
+                                <li><a href="social_media.html">Social Media Services</a></li>
+                                <li><a href="digital.html">Digital Advertising</a></li>
+                                <li><a href="devlopment.html">Web Development</a></li>
+                                <li><a href="intractive.html">Interactive Design</a></li>
+                                <li><a href="content.html">Content Marketing</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer__links" style="width:200px">
+
+                            <h4>Contact Us</h4>
+                            <span class="mails_phn">
+                                <img src="img/call.png" class="img-fluid mail_call" style="left: 0px;"
+                                    alt="img">&nbsp;&nbsp;
+                                <p class="text-white cont_mail" style="margin-left: 35px; "> <a
+                                        href="tel:+91 9166647418" style="color: white;">+91 9166647418</a></p>
+                                <img src="img/mail.png" class="img-fluid mail_call" style="left: 0px;" alt="img">
+                                <p class="text-white cont_mail" style="margin-left: 35px;"><a
+                                        href="mailto:info@magicads360.com"
+                                        style="color: white;">info@magicads360.com</a></p>
+                            </span>
+
+                            <ul class="mt-5" style="display: flex;">
+                                <li class="mx-2"><a style="font-size: 22px;"
+                                        href="https://www.linkedin.com/company/magicads360/"><i
+                                            class="fa-brands fa-linkedin"></i></a></li>
+                                <li class="mx-2"><a style="font-size: 22px;"
+                                        href="https://www.facebook.com/Magicads360"><i
+                                            class="fa-brands fa-facebook"></i></a>
+                                </li>
+                                <li class="mx-2"><a style="font-size: 22px;"
+                                        href="https://www.youtube.com/@magicads360"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </li>
+                                <li class="mx-2"><a style="font-size: 22px;"
+                                        href="https://www.instagram.com/magic.ads.360/"><i
+                                            class="fa-brands fa-square-instagram"></i></a></li>
+                            </ul>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <!-- <form id="subscriberForm"> -->
+                    <div class="footer__links ">
+                        <h4>Newsletter</h4>
+                        <p>Sign Up for updates, insights, case studies and much more.</p>
+                    </div>
+                    <input type="hidden" name="_token" value="PZWPF0utOIYililEw4Ag6vsEDTc7nfMlFYc9vb5v">
+                    <div class="Subscribe mt-3">
+                        <input type="email" placeholder="Your Email" id="sub_email" name="sub_email"
+                            style="color:white;border-bottom: 1px solid white;width: 100%;" autocomplete="off" required>
+                        <div class=" d-flex justify-content-center">
+                            <button id="send_email_sub_email" class=" btn mt-3 btn-outline-secondary">Subscribe</button>
+                        </div>
+                    </div>
+
+                    <!-- </form> -->
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>© 2023 Magic Ads 360 Pvt. Ltd. - All Rights Reserved <span>Proudly Made In India</span><img
+                                src="img/flag.png"></p>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="copyrightList">
+                            <li><a href="https://magicads360.com/blog/terms-and-conditions">Terms of Conditions</a></li>
+                            <li><a href="https://magicads360.com/blog/privacy-policy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.js"></script> -->
+
+    <!-- <script>
+    // document.body.style.overflow = "hidden";
+    $(document).ready(() => {
+
+
+        document.querySelector(".customBanner").addEventListener("wheel", myFunction);
+        document.querySelector(".customBanner").addEventListener("scroll", myFunction);
+        document.querySelector(".customBanner").addEventListener("touchmove", myFunction);
+        document.querySelector(".customBanner").addEventListener("touchstart", myFunction);
+
+        document.documentElement.scrollTop = 0;
+        document.body.style.overflow = 'hidden';
+
+
+        function activeSlide() {
+
+            setTimeout(() => {
+
+                let activeSlide = $('div.active').index() + 1;
+
+                $('#active_slide').html(activeSlide + '/' + 4);
+            }, 1000);
+        }
+
+
+        function myFunction() {
+            let activeSlide = $('div.active').index() + 1;
+
+            if (activeSlide == 4) {
+
+                // console.log(activeSlide);
+                console.log('make scroll visible');
+                document.body.style.overflow = 'visible';
+
+                document.documentElement.scrollTop = 450;
+                document.querySelector(".customBanner").removeEventListener("wheel", myFunction);
+                document.querySelector(".customBanner").removeEventListener("scroll", myFunction);
+                document.querySelector(".customBanner").removeEventListener("touchmove", myFunction);
+                document.querySelector(".customBanner").removeEventListener("touchstart", myFunction);
+
+
+            } else {
+                // console.log(activeSlide);
+                $("#carouselExampleControls").carousel("next");
+
+            }
+            activeSlide();
+        }
+
+
+        // $('#carouselExampleControls').on('slide.bs.carousel', function () {
+        //     // do something…
+        //     activeSlide();
+        // })
+
+    });
+</script> -->
+
+    <script>
+        $(document).ready(function () {
+            $('#enquiry_btn').click(() => {
+                $('.popupForm').toggle();
+                $("#enquiry_btn").css("display", "none")
+            });
+
+            $('#close_pop').click(() => {
+                $('.popupForm').toggle();
+                $("#enquiry_btn").css("display", "block")
+            });
+
+
+            $('#send_email_sub_email').click(() => {
+
+                if ($("#sub_email").val() == "") {
+                    toastr.options.positionClass = 'toast-bottom-right';
+                    toastr.error("Please enter email...!", '', { timeOut: 3000 })
+
+                } else {
+                    var obj = new Object()
+                    obj.email = $("#sub_email").val()
+
+
+                    var $request = $.ajax({
+                        url: `https://magic-bpdn.onrender.com/users/send-email-sub`,
+                        type: "POST",
+                        dataType: "json",
+                        contentType: "application/json",
+                        data: JSON.stringify(obj),
+                    });
+
+                    $request.done(function (data) {
+
+                        if (data.status) {
+                            $("#sub_email").val("")
+                            toastr.options.positionClass = 'toast-bottom-right';
+                            toastr.success("Thanks, we connect you soon..!", '', { timeOut: 3000 })
+
+                        } else {
+                            toastr.options.positionClass = 'toast-bottom-right';
+                            toastr.error("Somethings went wrong...!", '', { timeOut: 3000 })
+
+                        }
+
+
+                    })
+
+                }
+
+            });
+
+
+            $('#lets_talk_btn').click((e) => {
+                e.preventDefault();
+
+                if ($("#name1").val() == "") {
+                    toastr.options.positionClass = 'toast-bottom-right';
+                    toastr.error("Please enter name...!", '', { timeOut: 3000 })
+
+                } if ($("#phone_number").val() == "") {
+                    toastr.options.positionClass = 'toast-bottom-right';
+                    toastr.error("Please enter mobile number...!", '', { timeOut: 3000 })
+
+                } if ($("#email1").val() == "") {
+                    toastr.options.positionClass = 'toast-bottom-right';
+                    toastr.error("Please enter email...!", '', { timeOut: 3000 })
+
+                }
+                else {
+                    var obj = new Object()
+                    obj.email = $("#email1").val()
+                    obj.name = $("#name1").val()
+                    obj.phone = $("#phone_number").val()
+                    obj.message = $("#type_message").val()
+                    obj.company_name = $("#company_name1").val()
+
+
+                    console.log(obj)
+
+
+
+
+                    var $request = $.ajax({
+                        url: `https://magic-bpdn.onrender.com/users/send-email-contact`,
+                        type: "POST",
+                        dataType: "json",
+                        contentType: "application/json",
+                        data: JSON.stringify(obj),
+                    });
+
+                    $request.done(function (data) {
+
+                        if (data.status) {
+                            $("#sub_email").val("")
+                            toastr.options.positionClass = 'toast-bottom-right';
+                            toastr.success("Thanks, we connect you soon..!", '', { timeOut: 3000 })
+                            $('#enquiry_form')[0].reset();
+
+                        } else {
+                            toastr.options.positionClass = 'toast-bottom-right';
+                            toastr.error("Somethings went wrong...!", '', { timeOut: 3000 })
+
+                        }
+
+
+                    })
+
+                }
+
+            });
+
+
+
+            $('#send_proposal').click((e) => {
+                e.preventDefault();
+
+                if ($("#email3").val() == "") {
+                    toastr.options.positionClass = 'toast-bottom-right';
+                    toastr.error("Please enter email...!", '', { timeOut: 3000 })
+
+                }
+                else {
+                    var obj = new Object()
+                    obj.email = $("#email3").val()
+                    obj.type = $("#type_value").val()
+
+
+
+                    console.log(obj)
+
+                    var $request = $.ajax({
+                        url: `https://magic-bpdn.onrender.com/users/send-email-services`,
+                        type: "POST",
+                        dataType: "json",
+                        contentType: "application/json",
+                        data: JSON.stringify(obj),
+                    });
+
+                    $request.done(function (data) {
+
+                        if (data.status) {
+                            $("#email3").val("")
+                            toastr.options.positionClass = 'toast-bottom-right';
+                            toastr.success("Thanks, we connect you soon..!", '', { timeOut: 3000 })
+
+
+                        } else {
+                            toastr.options.positionClass = 'toast-bottom-right';
+                            toastr.error("Somethings went wrong...!", '', { timeOut: 3000 })
+
+                        }
+
+
+                    })
+
+                }
+
+            });
+
+
+
+
+
+        });
+    </script>
+
+</body>
+
+</html>
